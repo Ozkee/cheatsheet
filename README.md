@@ -1,7 +1,5 @@
 # Ruby
 
----
-
 ### Difference between ``` and ``` and ``` && ``` in Ruby?
 
 ``` and ``` is the same as ``` && ``` but with [lower precedence](http://phrogz.net/ProgrammingRuby/language.html#table_18.4). They both use [short-circuit evaluation](https://en.wikipedia.org/wiki/Short-circuit_evaluation).
@@ -47,6 +45,7 @@ ruby -I test test/unit/..
 # Rspec
 
 rake db:test:prepare
+
 rspec spec/
 
 ---
@@ -64,5 +63,6 @@ git rebase -i origin/master
 # ElasticSearch
 
 Model.__elasticsearch__.create_index! force: true
+
 Model.import
 
