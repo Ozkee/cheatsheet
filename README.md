@@ -44,25 +44,25 @@ ruby -I test test/unit/..
 
 # Rspec
 
-rake db:test:prepare
+``` rake db:test:prepare ```
 
-rspec spec/
+``` rspec spec/ ```
 
 ---
 
 # Git
 
-git log origin/master..HEAD
+``` git log origin/master..HEAD ```
 
-git reset --hard origin/master
+``` git reset --hard origin/master ```
 
-git rebase -i origin/master
+``` git rebase -i origin/master ```
 
 ---
 
 # ElasticSearch
 
-Model.__elasticsearch__.create_index! force: true
+``` Model.__elasticsearch__.create_index! force: true ```
 
-Model.import
+``` Model.import ```
 
