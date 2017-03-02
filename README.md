@@ -38,7 +38,7 @@ The same thing works for ``` || ``` and ``` or ```.
 
 # Integration Tests
 
-ruby -I test test/unit/..
+``` ruby -I test test/unit/.. ```
 
 ---
 
