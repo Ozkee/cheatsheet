@@ -5,10 +5,11 @@
 ### Difference between ``` and ``` and ``` && ``` in Ruby?
 
 ``` and ``` is the same as ``` && ``` but with [lower precedence](http://phrogz.net/ProgrammingRuby/language.html#table_18.4). They both use [short-circuit evaluation](https://en.wikipedia.org/wiki/Short-circuit_evaluation).
+
 WARNING: ``` and ``` even has lower precedence than ``` = ``` so you'll want to avoid and always
 
 
-
+```
 foo = :foo
 bar = nil
 
@@ -31,6 +32,7 @@ a
 # => nil
 a
 # => :foo
+```
 
 The same thing works for ``` || ``` and ``` or ```.
 
