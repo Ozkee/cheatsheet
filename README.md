@@ -66,3 +66,18 @@ The same thing works for ``` || ``` and ``` or ```.
 
 ``` Model.import ```
 
+---
+
+# Set Custom Domain to localhost
+
+[Stackoverflow](https://stackoverflow.com/questions/7576217/assigning-a-domain-name-to-localhost-for-development-environment-on-mac-os-x-wit)
+[lvh.me](https://www.quora.com/What-is-lvh-me)
+
+In /etc/hosts ``` sudo vim /etc/hosts ``` add for example:
+``` 127.0.0.1   www.example.com ```
+To clear the cached entry, run this on the command line:
+``` dscacheutil -flushcache ```
+
+
+
+
