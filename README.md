@@ -122,3 +122,11 @@ To clear the cached entry, run this on the command line:
 [Stackoverflow](https://stackoverflow.com/questions/7576217/assigning-a-domain-name-to-localhost-for-development-environment-on-mac-os-x-wit)
 
 [lvh.me](https://www.quora.com/What-is-lvh-me)
+
+---
+
+# Git
+
+To delete all local branches that are already merged into the currently checked out branch:
+
+``` git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d ```
