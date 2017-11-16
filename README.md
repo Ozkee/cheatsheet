@@ -97,6 +97,8 @@ puts rose.ask(ricky) # Ricky will tell if Rose asks nicely
 
 ``` git reset --hard origin/master ```
 
+``` git reset --hard HEAD ``` - I want to reset to the last committed version, ex. during merge with conflicts
+
 ``` git rebase -i origin/master ```
 
 ---
